@@ -19,4 +19,4 @@ jobs: # Any name can be provided
           aws-region: ap-south-1
 
       - name: Deploy static site to S3 bucket
-        run: aws s3 sync . s3://harsha-website-portfolio--delete # Change bucket name
+        run: aws s3 sync . s3://harsha-website-portfolio --delete # Change bucket name
